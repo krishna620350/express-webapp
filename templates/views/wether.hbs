@@ -1,0 +1,33 @@
+{{>header}}
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="main-contant">
+                    <form class="temp-form">
+                        <input type="text" id="search" placeholder="Enter your city name" autocomplete="off">
+                        <input type="submit" id="submit" value="Search">
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-12 main-header-left">
+                        <div class="top_layer">
+                            <p id="day">Tuesdays</p>
+                            <p id="date">13-oct-2021</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 main-header-right">
+                        <div class="main-layer">
+                            <p id="cityname"></p>
+                            <div class="middle-layer">
+                                <p id="temp"><span id="temp-real">0</span><sup>o</sup>C</p>
+                                <p id="temp-status"><i class="fa fa-cloud"></i></p><br>
+                            </div>
+                            <p>min-temp : <span id="mintemp"></span> || max-temp : <span id="maxtemp"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+{{>footer}}
